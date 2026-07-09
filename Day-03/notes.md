@@ -105,3 +105,22 @@ Example: boolean isstudent = input.nextBoolean();
 Used for:
 True
 False
+
+## String Input
+-> String are used to store text.
+
+Examples:
+
+-> Adarsh
+-> Rahul
+-> Hello World
+
+Scanner Output:
+
+-> input.nextLine();
+
+Example:
+
+=> String name = input.nextLine();
+
+****This takes text input from the user and stores it in a string variable.
