@@ -124,3 +124,46 @@ Example:
 => String name = input.nextLine();
 
 ****This takes text input from the user and stores it in a string variable.
+
+## Naming Conventions (camelCase)
+
+Java variables use camelCase.
+
+Examples:
+
+studentName
+studentAge
+studentHeight
+monthlySalary
+firstNumber
+
+Wrong:
+
+Studentname
+studentname
+student_name
+
+Good variable names make code easier to read and maintain.
+
+## Why Meaningful Variable Names Matter
+
+Good variable names improve:
+
+- Readability
+- Maintainability
+- Debugging
+- Team Collaboration
+
+Example:
+
+Bad:
+
+String a;
+int b;
+
+Good:
+
+String studentName;
+int studentAge;
+
+Meaningful names make code self-explanatory and easier to understand in the future.
