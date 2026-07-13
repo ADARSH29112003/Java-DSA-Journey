@@ -92,3 +92,28 @@ If the condition is true:
 If the condition is false:
 → Execute the else block
 
+## Nested if
+
+A nested if means an if statement inside another if statement.
+
+Syntax:
+
+if(condition1)
+{
+    if(condition2)
+    {
+        // code
+    }
+}
+
+Both conditions must be true for the code to execute.
+
+Example:
+
+if(age >= 18)
+{
+    if(hasID)
+    {
+        System.out.println("Entry Allowed");
+    }
+}
