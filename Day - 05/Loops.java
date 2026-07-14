@@ -22,5 +22,26 @@ public class Loops {
         for (int i = 10; i <= 15; i++) {
             System.out.println(i);
         }
+
+    
+        System.out.println("\nEven Numbers From 1 To 10");
+
+         for(int i = 1; i <= 10; i++)
+         {
+             if(i % 2 == 0)
+          {
+                System.out.println(i);
+          }
+        }
+
+         System.out.println("\nOdd Numbers From 1 To 10");
+
+         for(int i = 1; i <= 10; i++)
+         {
+           if(i % 2 != 0)
+           {
+              System.out.println(i);
+           }
+        }
     }
 }
