@@ -149,3 +149,45 @@ Output:
 3
 4
 
+## Continue Statement
+
+The continue statement is used to skip the current iteration of a loop.
+
+Unlike break, continue does not stop the loop.
+
+It skips the current iteration and moves to the next one.
+
+Example:
+
+for(int i = 1; i <= 5; i++)
+{
+    if(i == 3)
+    {
+        continue;
+    }
+
+    System.out.println(i);
+}
+
+Output:
+
+1
+2
+4
+5
+
+## Difference Between break and continue
+
+break:
+
+The break statement immediately terminates the loop.
+
+When Java encounters break, it exits the loop and executes the code after the loop.
+
+---
+
+continue:
+
+The continue statement skips the current iteration and moves to the next iteration.
+
+The loop continues running until its condition becomes false.
