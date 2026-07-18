@@ -493,3 +493,15 @@ for(int i = 0; i < arr.length; i++)
 }
 
 In this example, the loop visits every element of the array exactly once.
+
+The only difference is the comparison operator.
+
+Maximum Element:
+
+if(arr[i] > max)
+
+Minimum Element:
+
+if(arr[i] < min)
+
+All remaining logic remains the same.
