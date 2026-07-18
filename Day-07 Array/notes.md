@@ -418,3 +418,78 @@ Array Problems (DSA Introduction)
 * Maximum Element
 * Minimum Element
 * Linear Search
+
+# Sum of Array
+
+## Why?
+
+When an array contains many values, manually adding them is not practical.
+
+Using loops, we can calculate the total automatically.
+
+---
+
+## Logic
+
+Create a variable named sum.
+
+Start from 0.
+
+Visit every element and keep adding it to sum.
+
+---
+
+## Example
+
+Array:
+
+10 20 30 40 50
+
+Calculation:
+
+0 + 10 = 10
+
+10 + 20 = 30
+
+30 + 30 = 60
+
+60 + 40 = 100
+
+100 + 50 = 150
+
+Output:
+
+150
+
+---
+
+## Formula
+
+sum = sum + arr[i];
+
+Why do we initialize sum with 0?
+
+Because 0 is the identity value for addition.
+
+When calculating a total, we need a starting point.
+
+Example:
+
+0 + 10 = 10
+10 + 20 = 30
+30 + 50 = 80
+
+If we start with any other value, the final answer will be incorrect.
+
+Q. What is Array Traversal?
+
+Array Traversal is the process of visiting every element of an array one by one in order to read, print, update, or perform operations on them.
+
+Example:
+
+for(int i = 0; i < arr.length; i++)
+{
+    System.out.println(arr[i]);
+}
+
+In this example, the loop visits every element of the array exactly once.
