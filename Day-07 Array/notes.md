@@ -505,3 +505,69 @@ Minimum Element:
 if(arr[i] < min)
 
 All remaining logic remains the same.
+
+# Linear Search
+
+## What is Linear Search?
+
+Linear Search checks elements one by one from left to right until the target value is found.
+
+---
+
+## Why?
+
+When we need to find whether a value exists inside an array.
+
+---
+
+## Logic
+
+Start from index 0.
+
+Compare each element with the target value.
+
+If found:
+
+- Mark as found
+- Stop searching
+
+If loop finishes and target is not found:
+
+- Element does not exist
+
+---
+
+## Example
+
+Array:
+
+10 20 30 40
+
+Target:
+
+30
+
+Check:
+
+10 -> No
+
+20 -> No
+
+30 -> Yes
+
+Output:
+
+Element Found
+
+---
+
+## Boolean
+
+Boolean stores only two values:
+
+true
+false
+
+Example:
+
+boolean found = false;
