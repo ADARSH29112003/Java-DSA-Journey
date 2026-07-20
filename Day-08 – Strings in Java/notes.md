@@ -88,3 +88,159 @@ stringVariable.length()
 Example:
 
 name.length()
+
+Q. What is the difference between array.length and String.length()?
+
+array.length returns the number of elements in an array.
+
+String.length() returns the number of characters in a String.
+
+Examples:
+
+int[] marks = {10,20,30};
+
+marks.length → 3
+
+String name = "Java";
+
+name.length() → 4
+
+charAt() is used to access or retrieve a character from a specific index position inside a String.
+
+Example:
+
+String city = "Delhi";
+
+city.charAt(0) → D
+
+city.charAt(1) → e
+
+city.charAt(2) → l
+
+# charAt()
+
+## What is charAt()?
+
+charAt(index) is used to access a character from a specific position inside a String.
+
+Example:
+
+String city = "Delhi";
+
+city.charAt(0)
+
+Output:
+
+D
+
+---
+
+## Why do we use charAt()?
+
+We use charAt() when we need a specific character from a String.
+
+Examples:
+
+- First letter of a name
+- Last character of a password
+- Checking individual characters
+- String traversal in DSA
+
+---
+
+## Syntax
+
+stringVariable.charAt(index)
+
+Example:
+
+city.charAt(3)
+
+Output:
+
+h
+
+---
+
+## Important Rule
+
+String indexing starts from 0.
+
+Example:
+
+0 1 2 3 4
+
+D e l h i
+
+---
+
+## Common Mistake
+
+city.charAt(5)
+
+Error
+
+Because valid indexes are:
+
+0 1 2 3 4
+
+# equals()
+
+## What is equals()?
+
+equals() is a String method used to compare two Strings.
+
+It checks whether both Strings contain exactly the same text.
+
+---
+
+## Syntax
+
+string1.equals(string2)
+
+Example:
+
+String a = "Java";
+String b = "Java";
+
+a.equals(b)
+
+Output:
+
+true
+
+---
+
+## Case Sensitive
+
+String a = "Java";
+String b = "JAVA";
+
+a.equals(b)
+
+Output:
+
+false
+
+Because uppercase and lowercase letters are different.
+
+---
+
+## Real-Life Use Cases
+
+- Login Systems
+- Password Verification
+- Username Checking
+- Form Validation
+
+---
+
+## Important Rule
+
+equals() compares the content of Strings.
+
+It returns:
+
+true  → if both Strings are exactly the same
+
+false → if they are different

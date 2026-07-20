@@ -3,5 +3,9 @@ public class StringLengthDemo {
         String language = "Java";
 
         System.out.println(language.length());
+
+        String password = "Java1234";
+
+        System.out.println(password.length());
     }
 }
