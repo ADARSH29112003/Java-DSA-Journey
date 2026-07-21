@@ -83,3 +83,15 @@ for(int i = text.length() - 1; i >= 0; i--)
 Output:
 
 avaJ
+
+Q. How can you count vowels in a String in Java?
+
+To count vowels in a String, we traverse the String character by character using a loop and charAt().
+
+We create a counter variable initialized to 0.
+
+For every character, we check whether it is a vowel (a, e, i, o, u).
+
+Whenever a vowel is found, we increment the counter using count++.
+
+After the loop finishes, the counter contains the total number of vowels present in the String.
