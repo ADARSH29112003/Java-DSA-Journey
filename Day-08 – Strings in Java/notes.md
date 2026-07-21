@@ -244,3 +244,21 @@ It returns:
 true  → if both Strings are exactly the same
 
 false → if they are different
+
+Search systems use toUpperCase() or toLowerCase() to make comparisons case-insensitive.
+
+Example:
+
+User Input:
+java
+
+Database:
+JAVA
+
+Without conversion:
+java ≠ JAVA
+
+After conversion:
+JAVA = JAVA
+
+Match Found.
