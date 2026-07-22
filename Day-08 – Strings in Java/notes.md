@@ -262,3 +262,146 @@ After conversion:
 JAVA = JAVA
 
 Match Found.
+
+# Count Uppercase & Lowercase Characters
+
+## What is it?
+
+This concept is used to find how many uppercase and lowercase letters are present inside a String.
+
+Example:
+
+String text = "JavaAI";
+
+Output:
+
+Uppercase = 3
+Lowercase = 3
+
+---
+
+## Why do we use it?
+
+We use it when we need to analyze text and check letter formatting.
+
+Examples:
+
+- Password Validation
+- Login Systems
+- Form Validation
+- Resume Analyzer
+- Text Editors
+- AI Chat Applications
+
+---
+
+## Logic
+
+Create two counters:
+
+int upperCount = 0;
+int lowerCount = 0;
+
+Visit every character of the String one by one.
+
+If the character is uppercase:
+
+upperCount++;
+
+If the character is lowercase:
+
+lowerCount++;
+
+After checking all characters, print both counters.
+
+---
+
+## Useful Methods
+
+Check Uppercase:
+
+Character.isUpperCase(ch);
+
+Check Lowercase:
+
+Character.isLowerCase(ch);
+
+These methods return:
+
+true
+false
+
+depending on the character.
+
+---
+
+## Example
+
+String:
+
+JavaAI
+
+Memory:
+
+0 → J
+1 → a
+2 → v
+3 → a
+4 → A
+5 → I
+
+Final Output:
+
+Uppercase = 3
+Lowercase = 3
+
+---
+
+## Syntax
+
+Character.isUpperCase(ch);
+
+Character.isLowerCase(ch);
+
+---
+
+## Important Rule
+
+Every character must be checked one by one.
+
+That is why we use:
+
+char ch = text.charAt(i);
+
+inside a loop.
+
+---
+
+## Real-Life Use Cases
+
+- Password Validation
+- Login Systems
+- User Registration Systems
+- Resume Analyzers
+- Search Systems
+- AI Chat Applications
+
+---
+
+## Time Complexity
+
+O(n)
+
+Because every character is visited exactly once.
+
+---
+
+## Key Learning
+
+- String Traversal
+- Character Checking
+- Character.isUpperCase()
+- Character.isLowerCase()
+- Counters
+- Loop + charAt()
+- Password Validation Logic
