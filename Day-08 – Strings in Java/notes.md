@@ -405,3 +405,162 @@ Because every character is visited exactly once.
 - Counters
 - Loop + charAt()
 - Password Validation Logic
+
+# Palindrome String
+
+## What is a Palindrome?
+
+A Palindrome is a word, text, or String that reads the same from both directions.
+
+Forward:
+
+madam
+
+Backward:
+
+madam
+
+Since both are the same, it is a Palindrome.
+
+Examples:
+
+- madam
+- level
+- racecar
+- noon
+
+---
+
+## Why Do We Need Palindrome?
+
+Palindrome checking is commonly used in:
+
+- DSA Practice Problems
+- Coding Interviews
+- Word Games
+- Text Processing Applications
+- String Manipulation Problems
+
+It helps improve String Traversal and Logic Building skills.
+
+---
+
+## Logic
+
+Step 1:
+
+Store the original String.
+
+Example:
+
+String word = "level";
+
+Step 2:
+
+Create an empty String.
+
+String reversed = "";
+
+Step 3:
+
+Traverse the String from last index to first index.
+
+Step 4:
+
+Keep adding characters into reversed.
+
+Step 5:
+
+Compare original String and reversed String using equals().
+
+If both are equal:
+
+Palindrome
+
+Otherwise:
+
+Not Palindrome
+
+---
+
+## Example
+
+Original String:
+
+level
+
+Memory:
+
+0 → l
+1 → e
+2 → v
+3 → e
+4 → l
+
+Reverse Traversal:
+
+l
+le
+lev
+leve
+level
+
+Final:
+
+Original = level
+
+Reversed = level
+
+Result:
+
+Palindrome
+
+---
+
+## Syntax
+
+String reversed = "";
+
+for(int i = word.length() - 1; i >= 0; i--)
+{
+    reversed = reversed + word.charAt(i);
+}
+
+if(word.equals(reversed))
+{
+    System.out.println("Palindrome");
+}
+else
+{
+    System.out.println("Not Palindrome");
+}
+
+---
+
+## Important Learning
+
+- Reverse Traversal
+- String Comparison
+- String Building
+- charAt()
+- equals()
+- length()
+- Loop Traversal
+
+---
+
+## Common Mistake
+
+Wrong:
+
+word == reversed
+
+Correct:
+
+word.equals(reversed)
+
+Reason:
+
+equals() compares String content.
+
+== compares memory references.

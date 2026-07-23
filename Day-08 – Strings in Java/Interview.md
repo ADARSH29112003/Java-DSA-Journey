@@ -95,3 +95,42 @@ For every character, we check whether it is a vowel (a, e, i, o, u).
 Whenever a vowel is found, we increment the counter using count++.
 
 After the loop finishes, the counter contains the total number of vowels present in the String.
+
+Q. What is a Palindrome String and how can you check it in Java?
+
+A Palindrome String is a String that reads the same forward and backward.
+
+Examples:
+
+- madam
+- level
+- racecar
+
+To check a palindrome in Java:
+
+1. Store the original String.
+2. Create an empty String named reversed.
+3. Traverse the String from last index to first index.
+4. Add each character into reversed.
+5. Compare original String and reversed String using equals().
+6. If both Strings are equal, it is a Palindrome.
+7. Otherwise, it is not a Palindrome.
+
+Example:
+
+String word = "level";
+String reversed = "";
+
+for(int i = word.length() - 1; i >= 0; i--)
+{
+    reversed = reversed + word.charAt(i);
+}
+
+if(word.equals(reversed))
+{
+    System.out.println("Palindrome");
+}
+else
+{
+    System.out.println("Not Palindrome");
+}
